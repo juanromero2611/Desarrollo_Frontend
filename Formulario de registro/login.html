@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de regsitro</title>
+    <link rel="stylesheet" href="StyleLogin.css">
+</head>
+<body>
+    <section class="form-register">
+        <h4 class="title">Formulario de Registro</h4>
+        <input class="controls" type="text" name="usuario" required minlength="5" maxlength="10" id="usuario" pattern="[A-Za-z]+" placeholder="Ingrese su usuario">
+        <input class="controls" type="password" name="contraseña" id="contraseña" required minlength="8" maxlength="20" pattern="^(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,20}$" placeholder="Ingrese su contraseña">
+        <p>Estoy de acuerdo con <u><a href="#">Terminos y Condiciones</a></u></p>
+        <input class="botons" type="submit" value="Registrar">
+        <p><u><a class="ingresar" href="registro.html">No tengo Cuenta</a></u></p>
+    </section>
+    <script src="scriptlogin.js" ></script>
+</body>
+</html>
+//Boostrap
